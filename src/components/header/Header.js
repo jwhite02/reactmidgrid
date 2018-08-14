@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
             <div className="parallax-header parallax">
-                <h1 style={{textAlign:'center'}}>Header Stub</h1>
+                <h1 className="h1Header" style={{textAlign:'center'}}>Night Scenes</h1>
             </div>
         );
     }

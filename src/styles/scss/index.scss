@@ -1,3 +1,4 @@
+$fColor: rgb(32, 30, 30);
 * {
     margin: 0;
     padding: 0;
@@ -45,18 +46,18 @@ h6 {
     font-size: 1rem;
 }
 
-.parallax-header {
-    /* The image used 1250 x 800 */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../../images/autum-stream.jpg');
-    /* Set a specific height */
-    min-height: 40rem;
+.h1Header {
+    padding-top: 5rem;
+    font-size: 8rem;
+    color: white;
 }
 
-.one {
+.parallax-header {
     /* The image used 1250 x 800 */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../../images/autum-stream.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)), url('../../images/prague-czech-republic.jpg');
     /* Set a specific height */
     min-height: 40rem;
+    border-bottom: #222 solid 2px;
 }
 
 .parallax-header2 {
@@ -69,7 +70,7 @@ h6 {
 .parallax {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: 80% -11rem;
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
@@ -85,6 +86,14 @@ h6 {
     outline-color: rgb(238, 111, 52);
     outline-width: 3px;
     outline-style: solid;
+}
+
+.sect1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../images/handmadepaper.png');
+    background-repeat: repeat;
+    padding-top: 5rem;
 }
 
 .shadow {
@@ -209,7 +218,7 @@ h6 {
 
 h1 {
     text-shadow: 0px 1px 2px rgb(206, 203, 203);
-    color: #222;
+    color: $fColor;
 }
 
 .bm-burger-button {
@@ -261,21 +270,21 @@ h1 {
 
 // Start for Grid Area
 .main {
-    padding: 10%;
-    /*            flex: 1 1 80%;*/
+    padding: 10%; //flex: 1 1 80%;
     display: block;
     min-height: 100vh;
     width: 1220px;
-    margin: 0 auto;
-    margin-left: 12rem;
+    margin: 0 auto; // margin-left: 12rem;
+    padding-top: 5rem;
 }
 
 .container {
     height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-auto-rows: 20px minmax(50px, auto);
-    grid-gap: 15px;
+    grid-gap: 20px;
 }
 
 .one {
@@ -283,82 +292,137 @@ h1 {
     grid-row: 1 / 7;
     background-color: blue;
     z-index: 5;
+    background-image: url(../../images/night1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .two {
     grid-column: 5 / 6;
-    grid-row: 3 / 11;
-    background-color: coral;
+    grid-row: 3 / 11; //background-color: coral;
     z-index: 3;
+    margin-bottom: 3rem;
+}
+
+.two h1 {
+    color: $fColor;
+    letter-spacing: 1.0rem;
 }
 
 .three {
     grid-column: 6 / 11;
-    grid-row: 2 / 5;
-    background-color: firebrick;
+    grid-row: 2 / 5; // background-color: firebrick;
+    background-image: url(../../images/night2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .four {
     grid-column: 1 / 5;
     grid-row: 7 / 12;
-    background-color: rebeccapurple;
+    background-image: url(../../images/night3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; // background-color: rebeccapurple;
 }
 
 .five {
     grid-column: 6 / 11;
-    grid-row: 5 / 10;
-    background-color: orangered;
+    grid-row: 5 / 10; //background-color: orangered;
     z-index: 3;
+    background-image: url(../../images/night4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .six {
     grid-column: 1 / 5;
-    grid-row: 12 / 15;
-    background-color: hotpink;
+    grid-row: 12 / 15; // background-color: hotpink;
     z-index: 5;
+    background-image: url(../../images/night5.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .seven {
     grid-column: 5 / 6;
-    grid-row: 11 / 19;
-    background-color: goldenrod;
+    grid-row: 11 / 19; //background-color: goldenrod;
+    margin-top: 3rem;
+}
+
+.seven h1 {
+    color: $fColor;
+    letter-spacing: 1.0rem;
 }
 
 .eight {
     grid-column: 6 / 11;
     grid-row: 10 / 14;
-    background-color: palegreen;
+    background-image: url(../../images/night6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; //background-color: palegreen;
 }
 
 .nine {
     grid-column: 1 / 5;
     grid-row: 15/ 21;
-    background-color: olivedrab;
+    background-image: url(../../images/night8.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; //background-color: olivedrab;
 }
 
 .ten {
     grid-column: 6 / 11;
     grid-row: 14 / 20;
-    background-color: dimgrey;
+    background-image: url(../../images/night10.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; //background-color: dimgrey;
 }
 
-.twob {
-    transform: rotate(90deg);
-    
+.one,
+.three,
+.four,
+.five,
+.six,
+.eight,
+.nine,
+.ten {
+    border: solid rgba(96, 99, 92, 0.877) 2px;
 }
 
 .thebackground {
     /*            background-color: coral;*/
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; //overflow: hidden;
+    transition: transform 2000ms ease 0;
 }
 
-#thebackground2 {
-    // background-color: coral;
-    // width: 10rem;
-    // white-space: nowrap;
+.thebackground:hover {
+    transform: scale(1.1);
+}
 
+.thebackground:nth-child(2):hover {
+    transform: scale(1.0)
+}
+
+.thebackground:nth-child(7):hover {
+    transform: scale(1.0)
+}
+
+.thebackground2 {
+    width: 5rem;
+    white-space: nowrap;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    word-spacing: 2rem; //margin: 3.5rem 0 0 0.5rem;
 }
 
 .myh1 {
@@ -366,4 +430,89 @@ h1 {
     display: block;
     margin: 0 auto;
     text-align: center;
+}
+
+.myh1 h1 {
+    font-size: 5rem;
+    color: $fColor;
+}
+
+div .imgBox {
+    position: relative; // height: 38rem;
+}
+
+div .imgBox img {
+    object-fit: cover; //object-position: 50% 50%;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.thebackground .details {
+    position: relative;
+    width: 100%;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: whitesmoke;
+    background-color: rgba(19, 17, 17, 0.52);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.thebackground:hover .details {
+    transform: scaleY(1);
+}
+
+.thebackground .details .imgContent {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.thebackground .details .imgContent p {
+    padding: 20px 20px 20px 20px;
+    line-height: 20px;
+}
+
+.thebackground .details .imgContent h2 {
+    line-height: 2px;
+}
+
+.thefooter {
+    min-height: 20rem;
+    width: 100%;
+    border-top: solid rgb(221, 210, 208) 3px;
+    background-image: url('../../images/groovepaper.png');
+    background-repeat: repeat;
+}
+
+.fcontainter {
+    width: 100%;
+    padding: 2rem;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; //align-content: space-between;
+    justify-content: center;
+}
+
+.fcontsect1 {
+    flex-basis: 33%;
+}
+
+.fcontsect2 {
+    flex-basis: 33%;
+}
+
+.fcontsect3 {
+    flex-basis: 33%;
+}
+
+[class^="fcontsect"] {
+    padding-right: 8rem;
 }
