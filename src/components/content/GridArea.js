@@ -45,7 +45,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night11} alt="night1"/> */}
                             </div>
                         </div>
                         <div className="thebackground four shadow">
@@ -56,7 +55,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night2} alt="night1" /> */}
                             </div>
                         </div>
                         <div className="thebackground five shadow">
@@ -67,7 +65,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night3} alt="night1" /> */}
                             </div>
                         </div>
                         <div className="thebackground six shadow">
@@ -78,7 +75,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night4} alt="night1" /> */}
                             </div>
                         </div>
                         <div className="thebackground seven">
@@ -94,7 +90,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night5} alt="night1" /> */}
                             </div>
                         </div>
                         <div className="thebackground nine shadow">
@@ -105,7 +100,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night6} alt="night1" /> */}
                             </div>
                         </div>
                         <div className="thebackground ten shadow">
@@ -116,7 +110,6 @@ class GridArea extends Component {
                                 </div>
                             </div>
                             <div className="imgBox">
-                                {/* <img src={night7} alt="night1" /> */}
                             </div>
                         </div>
                     </div>
