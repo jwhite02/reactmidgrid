@@ -20,14 +20,14 @@ class GridArea extends Component {
         return (
             <div className="sect1">
                 <div className="myh1 "> 
-                    <h1> Hello my Friend</h1>
+                    <h1>Lighting The Night</h1>
                 </div>
                 <div className="main">
                     <div className="container">
                         <div className="thebackground one shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>La Machine Du Moulin Rouge</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis, tenetur dignissimos facilis doloribus blanditiis eum. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ class GridArea extends Component {
                         <div className="thebackground three shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Colorful Architecture</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis. </p>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ class GridArea extends Component {
                         <div className="thebackground four shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Calm Nights</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis, tenetur dignissimos facilis doloribus blanditiis eum. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ class GridArea extends Component {
                         <div className="thebackground five shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Tropical Lights</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis, tenetur dignissimos facilis doloribus blanditiis eum. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ class GridArea extends Component {
                         <div className="thebackground six shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Reflections</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ class GridArea extends Component {
                         <div className="thebackground eight shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Venice Waters</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis, tenetur dignissimos facilis doloribus blanditiis eum. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ class GridArea extends Component {
                         <div className="thebackground nine shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Park Lights</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis, tenetur dignissimos facilis doloribus blanditiis eum. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ class GridArea extends Component {
                         <div className="thebackground ten shadow">
                             <div className="details">
                                 <div className="imgContent">
-                                    <h2>SomeText</h2>
+                                    <h2>Gardens By The Bay</h2>
                                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque iure modi sequi, maiores, soluta in amet perferendis, tenetur dignissimos facilis doloribus blanditiis eum. Eveniet quae numquam atque dicta, sint incidunt. </p>
                                 </div>
                             </div>

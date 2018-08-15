@@ -1,4 +1,10 @@
 $fColor: rgb(32, 30, 30);
+$primary-color: rgba(0, 0, 0, 0.1);
+$white: whitesmoke;
+$global-radius: 0.5rem;
+$subscription-form-bg: darken($primary-color, 20%);
+$subscription-form-color: $white;
+$subscription-form-padding: rem-calc(32);
 * {
     margin: 0;
     padding: 0;
@@ -50,6 +56,10 @@ h6 {
     padding-top: 5rem;
     font-size: 8rem;
     color: white;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 .parallax-header {
@@ -515,4 +525,45 @@ div .imgBox img {
 
 [class^="fcontsect"] {
     padding-right: 8rem;
+}
+
+.btfooter {
+    height: 4rem;
+    background-color: #4e4a46;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.simple-subscription-form {
+    // background: $subscription-form-bg;
+    // color: $subscription-form-color;
+    // padding: $subscription-form-padding;
+    border-radius: $global-radius;
+    .button {
+        margin-bottom: 0;
+        border-radius: 0 $global-radius $global-radius 0;
+    }
+}
+
+.input-group {
+    display: inline-block;
+    padding-left: 0rem;
+}
+
+.input-group-field {
+    width: 20rem;
+    height: 2.5rem;
+}
+
+input.input-group-field {
+    margin: 0 3px 0 3px;
+}
+
+button.button {
+    font-size: 1.4rem;
+    padding: 0.25rem;
+}
+
+.fcontsect2 ul {
+    list-style-type: none;
 }
