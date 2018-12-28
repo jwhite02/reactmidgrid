@@ -1,6 +1,6 @@
 # React JS Site
 
-###Description: A ReactJS site using grid system.
+### Description: A ReactJS site using grid system.
 ***
 This site uses ReactJS and CSS Grid to place some objects vertically.
 
